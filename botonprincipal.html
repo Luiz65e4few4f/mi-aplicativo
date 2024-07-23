@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="editar.css">
+    <style>
+        /* Estilos para el contenido oculto */
+        #contenido {
+            display: none;
+        }
+    </style>
+
+</head>
+<body  >
+     <button class="boton_redondo" id="botondespliegue">
+
+        <img src="imagenes/imagen2.png" width="50">
+     </button >
+     <div id="contenido" class="contacto"  style="display: none;">
+        <buttto class="facebook">
+            <a target="_blank"   href="https://www.facebook.com/people/Crearti-Col/pfbid0A8jH62c4kNRZX18UXtSQ1fdYnQ9CVtDqy8C78W34TVxq86zJt11M2XdzJZkqsSRxl/" ><img src="imagenes/icons8-facebook-nuevo-100.png" width="80"></a>
+        </buttto><br>
+
+
+        <buttto class="whatsapp">
+            <a target="_blank " href="http://wa.me/message/HEKS655PZWHLB1"><img src="imagenes/icons8-whatsapp-100.png" width="80"></a>
+        </buttto><br>
+
+
+        <buttto class="instagram">
+            <a target="_blank"  href="https://www.instagram.com/crearti_col?igsh=Ynp6YzFvdTV4YzE="> <img src="imagenes/icons8-instagram-100.png" width="80"></a>
+        </buttto><br>
+
+
+        <buttto class="tiktok">
+            <a target="_blank" href="https://www.tiktok.com/@crearti_col?_t=8nt7R67MlKo&_r=1"><img src="imagenes/icons8-tiktok-100.png" width="80"></a>
+        </buttto><br>
+
+
+     </div>
+
+     
+         <script>
+             const botondespliegue = document.getElementById("botondespliegue");
+             const contenido = document.getElementById("contenido");
+     
+             botondespliegue.addEventListener("click", () => {
+                 if (contenido.style.display === "none") {
+                     contenido.style.display = "block"; // Mostrar contenido
+                 } else {
+                     contenido.style.display = "none"; // Ocultar contenido
+                 }
+             });
+         </script>
+     </body>
+     </html>
+     
+</body>
+</html>
